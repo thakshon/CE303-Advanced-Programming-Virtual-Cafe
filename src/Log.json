@@ -1,0 +1,10 @@
+{
+  "02/12/2024 10:54:06.012": {
+    "waitingArea": {},
+    "brewingArea": {},
+    "trayArea": {},
+    "event": "Initial cafe status",
+    "NumberOfClients": 0,
+    "numberOfClientsWaitingForOrder": 0
+  }
+}

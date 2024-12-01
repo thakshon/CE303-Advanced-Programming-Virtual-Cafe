@@ -1,0 +1,82 @@
+{
+  "02/12/2024 03:14:54.004": {
+    "waitingArea": {},
+    "brewingArea": {},
+    "trayArea": {},
+    "event": "Initial cafe status",
+    "NumberOfClients": 0,
+    "numberOfClientsWaitingForOrder": 0
+  },
+  "02/12/2024 03:15:42.756": {
+    "waitingArea": {},
+    "brewingArea": {},
+    "trayArea": {},
+    "event": "Adding 1:Jaspreet to the cafe",
+    "NumberOfClients": 1,
+    "numberOfClientsWaitingForOrder": 0
+  },
+  "02/12/2024 03:17:23.521": {
+    "waitingArea": {},
+    "brewingArea": {},
+    "trayArea": {},
+    "event": "Adding new order for 1:Jaspreet",
+    "NumberOfClients": 1,
+    "numberOfClientsWaitingForOrder": 1
+  },
+  "02/12/2024 03:17:23.527": {
+    "waitingArea": { "tea": [{ "type": "TEA", "client": "Jaspreet" }] },
+    "brewingArea": {},
+    "trayArea": {},
+    "event": "Adding 1 new tea to the waiting area for 1:Jaspreet - Add new drink",
+    "NumberOfClients": 1,
+    "numberOfClientsWaitingForOrder": 1
+  },
+  "02/12/2024 03:17:23.537": {
+    "waitingArea": {},
+    "brewingArea": {},
+    "trayArea": {},
+    "event": "Removing 1 tea from the waiting area for 1:Jaspreet - Start brewing",
+    "NumberOfClients": 1,
+    "numberOfClientsWaitingForOrder": 1
+  },
+  "02/12/2024 03:17:23.540": {
+    "waitingArea": {},
+    "brewingArea": { "tea": [{ "type": "TEA", "client": "Jaspreet" }] },
+    "trayArea": {},
+    "event": "Adding 1 tea to the brewing area for 1:Jaspreet - Start brewing",
+    "NumberOfClients": 1,
+    "numberOfClientsWaitingForOrder": 1
+  },
+  "02/12/2024 03:18:08.556": {
+    "waitingArea": {},
+    "brewingArea": {},
+    "trayArea": {},
+    "event": "Removing 1 tea from the brewing area for 1:Jaspreet - Brewing complete",
+    "NumberOfClients": 1,
+    "numberOfClientsWaitingForOrder": 1
+  },
+  "02/12/2024 03:18:08.562": {
+    "waitingArea": {},
+    "brewingArea": {},
+    "trayArea": { "tea": [{ "type": "TEA", "client": "Jaspreet" }] },
+    "event": "Adding 1 tea to the tray area for 1:Jaspreet - Drink complete",
+    "NumberOfClients": 1,
+    "numberOfClientsWaitingForOrder": 1
+  },
+  "02/12/2024 03:18:08.573": {
+    "waitingArea": {},
+    "brewingArea": {},
+    "trayArea": {},
+    "event": "Removing 1 tea from the tray area for 1:Jaspreet - Order complete",
+    "NumberOfClients": 1,
+    "numberOfClientsWaitingForOrder": 1
+  },
+  "02/12/2024 03:18:08.578": {
+    "waitingArea": {},
+    "brewingArea": {},
+    "trayArea": {},
+    "event": "Setting 1:Jaspreet\u0027s order as complete",
+    "NumberOfClients": 1,
+    "numberOfClientsWaitingForOrder": 0
+  }
+}
